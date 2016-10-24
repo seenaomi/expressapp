@@ -1,0 +1,28 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "A basic TDD Express app which will use Postgres DB",
+  "main": "app.js",
+  "private": "true",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "expressapp"
+  },
+  "author": "Naomi See",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai2-json-schema": "^1.2.0",
+    "mocha": "^3.1.2",
+    "superagent": "^2.3.0"
+  },
+  "dependencies": {
+    "config": "^1.21.0",
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  },
+  "start": "node server.js"
+}

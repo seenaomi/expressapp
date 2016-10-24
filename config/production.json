@@ -1,0 +1,7 @@
+ {
+    "db": {
+        "host": "db.example.com",
+        "port": 9543,
+        "pass": "other_pass"
+    }
+}
